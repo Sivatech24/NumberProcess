@@ -1,0 +1,27 @@
+Input Collection:
+
+The program begins by prompting the user to enter a number between 1 and 9.
+It then reads this input.
+
+Input Validation:
+
+The program checks if the entered number is within the valid range (1 to 9).
+If the number is outside this range, it displays an error message and stops execution.
+
+Recursive Processing:
+
+If the input is valid, the program starts processing the number using a recursive function.
+The function prints the current number.
+It then checks if the number is 1. If so, it stops further processing.
+If the number is not 1, the function determines if the number is odd or even:
+If the number is odd, it multiplies the number by 3 and adds 1.
+If the number is even, it divides the number by 2.
+The function then calls itself with the new number, repeating the process.
+
+Termination:
+
+The recursive calls continue until the number eventually becomes 1.
+At each step, the intermediate numbers are printed, showing the sequence of transformations.
+
+Summary
+The algorithm reads a number between 1 and 9, validates it, and then repeatedly transforms the number according to specified rules (multiply by 3 and add 1 if odd, divide by 2 if even) until the number becomes 1. This process is done recursively, and the sequence of transformations is printed at each step.
